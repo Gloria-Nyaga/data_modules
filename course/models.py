@@ -11,6 +11,5 @@ class Course(models.Model):
     course_fee = models.PositiveSmallIntegerField ()
     course_unit = models.TextField ()
     course_outline = models.TextField ()
-    course_fee = models.PositiveSmallIntegerField ()
 
 # Create your models here.
